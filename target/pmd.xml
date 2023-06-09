@@ -2,16 +2,5 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.21.0" timestamp="2023-06-08T23:46:23.171">
-<file name="C:\Users\David Sanchez\Downloads\CodeInspection-main\CodeInspection\src\main\java\labcodeinspection\Email.java">
-<violation beginline="8" endline="8" begincolumn="24" endcolumn="33" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="labcodeinspection" class="Email" variable="department" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
-Found non-transient, non-static member. Please mark as transient or provide accessors.
-</violation>
-<violation beginline="9" endline="9" begincolumn="21" endcolumn="41" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="labcodeinspection" class="Email" variable="defaultpasswordLength" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
-Found non-transient, non-static member. Please mark as transient or provide accessors.
-</violation>
-<violation beginline="10" endline="10" begincolumn="24" endcolumn="28" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="labcodeinspection" class="Email" variable="email" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
-Found non-transient, non-static member. Please mark as transient or provide accessors.
-</violation>
-</file>
+    version="6.21.0" timestamp="2023-06-08T23:56:09.482">
 </pmd>

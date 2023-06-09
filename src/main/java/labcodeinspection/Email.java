@@ -27,8 +27,12 @@ public class Email {
 		this.defaultpasswordLength = defaultpasswordLength;
 	}
 	
-	
-
+	public void setDepartment(String department) {
+		this.department = department;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	public String getM_lastName() {
 		return m_lastName;
 	}
@@ -40,7 +44,12 @@ public class Email {
 	public String getDepartment() {
 		return department;
 	}
-
+	public int getDefaultpasswordLength() {
+		return defaultpasswordLength;
+	}
+	public String getEmail() {
+		return email;
+	}
 	public Email(String firstName, String lastName) {
 		this.m_firstName = firstName;
 		this.m_lastName = lastName; // NOPMD
