@@ -77,7 +77,6 @@ public class Email {
 
 	public void generateEmail() {
 		this.password = this.randomPassword(this.defaultpasswordLength);
-		this.email = this.m_firstName.toLowerCase() + this.m_lastName.toLowerCase() + "@" + this.department
-				+ ".espol.edu.ec";
+		this.email = this.m_firstName + this.m_lastName + "@" + this.department	+ ".espol.edu.ec";
 	}
 }
